@@ -1,12 +1,13 @@
-pipeline {
-   agent any
+pipelineJob("First Pipeline") {
+   pipeline {
+      agent any
 
-   stages {
-      stage('Hello') {
-         steps {
-            echo "Hello World"
+      stages {
+         stage('Hello') {
+            steps {
+               echo "Hello World"
+            }
          }
       }
    }
 }
-
