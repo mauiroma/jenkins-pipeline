@@ -1,4 +1,4 @@
-pipelineJob("First Pipeline") {
+pipeline{
    agent any
 
    stages {
